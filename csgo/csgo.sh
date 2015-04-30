@@ -13,4 +13,4 @@ tmp/steamcmd.sh +login anonymous +force_install_dir ../csgoserver +app_update 74
 cd csgoserver
 ./srcds_run -game csgo -console -usercon +game_type 0 +game_mode 1 \
     +mapgroup mg_active +map de_dust2 -exec ../tmp/esl5on5rl.cfg -tickrate 128 \
-    +hostname "Kuschelmatch" sv_password "lol" rcon_password "hunter2"
+    +hostname "Kuschelmatch" +sv_password "lol" +rcon_password "hunter2"
